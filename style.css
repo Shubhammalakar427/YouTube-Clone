@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+}
+.center_nav{
+    display: flex;
+    align-items: center;
+}
+.search{
+    display: flex;
+}
+.search input{
+    border-radius:25px;
+}
+.search input{
+    min-width: 600px;
+    padding: 10px 20px;
+    border: 0.5px solid #ccc;
+}
+.search img{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.search img:hover{
+    background-color:black;
+}
+.mic{
+    padding: 15px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-left: 15px;
+}
+.mic img{
+    width: 15px;
+}
+.sid_nav img{
+    width: 25px;
+    margin-left: 25px;
+    align-items: center;
+}
+.sid_nav .demo{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 0;
+    
+}
+
+.tags{
+    display: flex;
+    padding: 10px 20px;
+    gap: 15px;
+    border-top: 1px solid #ccc;
+}
+
+.tag{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(22,22,22);
+}
+.dark{
+    background: black;
+    color: white;
+}
+.light{
+    background: rgb(238,238,238);
+    color: rgb(67,67,67);
+}
+.light:hover{
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+}
+aside{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.side-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.side-icon img {
+
+   
+    width: 25px;
+}
+.side-icon p{
+    font-size: 15px;
+    margin-top: -5px;
+    
+}
+.bars img{
+    margin-top: 25px;
+    width: 25px;
+}
+.mainc{
+    width: 100%;
+}
+main{
+    min-height: 100vh;
+    background: rgb(254, 254, 254);
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+    
+}
+.cardc{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,min-max(320px,1fr));
+}
+.card{
+    padding: 10px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+.containt{
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+.channel-name{
+    font-size: 16px;
+    font-weight: bold;
+}
+.content-status{
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+}
+.avtar img{
+    width: 25px;
+    border-radius: 50%;
+}
+.dits img{
+    width: 15px;
+    padding-top: 2px;
+    
+}
+
+
